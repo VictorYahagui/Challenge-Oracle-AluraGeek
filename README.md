@@ -5,15 +5,12 @@ Este projeto faz parte do desafio proposto pelo Oracle One Next em colaboração
 
 ## Demonstração
 <p align="center">
-<<<<<<< HEAD
   <img src="./assets/AluraGeek1.PNG" alt="Demonstração">
-=======
-  <img src="./assets/AluraGeek2.PNG" alt="Demonstração">
->>>>>>> 992aff99c3dabaf1aeffc36781bab1716462e684
 </p>
 <p align="center">
-  <img src="./assets/AluraGeek2.PNJ" alt="Demonstração">
+  <img src="./assets/AluraGeek2.PNG" alt="Demonstração">
 </p>
+
 
 ## Funcionalidades
 - **Pesquisa (Search)**: O site possui uma barra de busca no topo que permite procurar por produtos em todo o catálogo. Além disso, há um campo de pesquisa no `aside` que filtra produtos pertencentes à mesma categoria, facilitando a navegação.
