@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Quicksand:wght@300..700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <!-- Import icon -->
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+
+    <!-- Import global.css -->
+    <link rel="stylesheet" href="css/global.css">
+
+    <!-- Import style.css and variables -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <section>
+        <div class="section-container">
+            <aside>
+                <div class="aside-container">
+                    <header>
+                        <div class="aside__header-container">
+                            <span class="material-symbols-outlined text-gradient logo-icon">
+                                gamepad
+                            </span>
+                            <h1 class="text-gradient logo">Alura <span class="logo-margin">Geek</span></h1>
+                        </div>
+                    </header>
+                    <main class="aside__main">
+                        <div class="aside__main-container">
+                            <div class="aside__main-links">
+                                <a href="#" class="aside__main-link">
+                                    <span class="material-symbols-outlined icon-large icon-gray">
+                                        account_circle
+                                    </span>
+                                    Profile
+                                </a>
+                                <button href="#" class="aside__main-link" data-buttonAsideSearch>
+                                    <span class="material-symbols-outlined icon-large icon-gray">
+                                        search
+                                    </span>
+                                    Search
+                                </button>
+                                <a href="#" class="aside__main-link">
+                                    <span class="material-symbols-outlined icon-large icon-gray">
+                                        star
+                                    </span>
+                                    Favorite
+                                </a>
+                            </div>
+
+                            <div class="aside__main-categories">
+                                <span class="aside__main-categories-title">Categories</span>
+                                <ul class="aside__main-categories--list" data-categories>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </main>
+                    <footer>
+                        <div class="aside__footer-container">
+                            <div class="aside__footer-logo">
+                                <span class="material-symbols-outlined">
+                                    gamepad
+                                </span>
+                                <h1 class="aside__footer-info-logo">Alura Geek</h1>
+                            </div>
+                            <div>
+                                <h5 class="aside__footer-info-developer">DESENVOLVIDO POR VICTOR <span>YAHAGUI</span>
+                                </h5>
+                                <h6 class="aside__footer-info-year">ALURA LATAM - 2024</h6>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </aside>
+            <main class="main">
+                <div class="main-container">
+                    <header class="main__header">
+                        <div class="main__header-searchBar">
+                            <input type="text" placeholder="Digite sua busca..." class="search-input" data-search>
+                            <button type="submit" class="search-button">
+                                <span class="material-symbols-outlined icon-gray" data-search-button>
+                                    search
+                                </span>
+                            </button>
+                        </div>
+                        <div class="main__header-actions">
+                            <div>
+                                <div>
+
+                                </div>
+                                <button>
+                                    <span class="material-symbols-outlined icon-gray">
+                                        notifications
+                                    </span>
+                                </button>
+                            </div>
+                            <div>
+                                <div>
+
+                                </div>
+                                <button>
+                                    <span class="material-symbols-outlined icon-gray">
+                                        shopping_bag
+                                    </span>
+                                </button>
+                            </div>
+                            <div>
+                                <img class="main__header-avatar"
+                                    src="https://avatars.githubusercontent.com/u/61442321?v=4" alt="avatar">
+                            </div>
+                        </div>
+                    </header>
+                    <div class="main__carousel">
+                        <button class="main__carousel__button main__carousel__button--prev">
+                            <span class="material-symbols-outlined icon-large">
+                                chevron_left
+                            </span>
+                        </button>
+                        <div class="main__carousel__track" data-promo>
+
+                        </div>
+                        <button class="main__carousel__button main__carousel__button--next">
+                            <span class="material-symbols-outlined icon-large">
+                                chevron_right
+                            </span>
+                        </button>
+                        <div class="main__carousel__progress-bar">
+                            <div class="main__carousel__progress"></div>
+                        </div>
+                    </div>
+                    <div class="main__product">
+                        <div class="main__product-container">
+                            <h1>Product</h1>
+                            <div class="main__product-filter">
+                                <div class="main__product-filters">
+                                    <button class="button-border-rounded" aria-pressed="true">Top</button>
+                                    <button class="button-border-rounded" aria-pressed="false">Popular</button>
+                                    <button class="button-border-rounded" aria-pressed="false">Recommended</button>
+                                    <button class="button-filter-selection">
+                                        <span class="material-symbols-outlined purple-color">
+                                            filter_alt
+                                        </span>
+                                        Filter
+                                    </button>
+                                </div>
+                                <div class="main__product-addProduct">
+                                    <button class="button-border-rounded button-addProduct" data-addButton>
+                                        <span class="material-symbols-outlined">
+                                            add
+                                        </span>
+                                        Add Item
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__product-items font-family-inter">
+                            <ul class="main__product-items-container" data-list>
+                                <div id="error-messege" hidden>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay" id="overlay">
+
+                </div>
+                <div class="modal" id="modal">
+                    <form action="" class="modal__form" data-form>
+                        <h2>Add Item</h2>
+                        <input type="text" name="productName" id="" placeholder="Nome do Produto" data-form-name
+                            required>
+                        <input type="text" name="productImg" id="" placeholder="Imagem do Produto" data-form-img
+                            required>
+                        <input type="number" name="productPrice" id="" placeholder="Preco do Produto" data-form-price
+                            required>
+                        <input type="text" name="productType" id=""
+                            placeholder="Tipo do Produto: Eletronico, Acessorio, etc..." data-form-type required>
+                        <button type="submit">Submit </button>
+                    </form>
+                    <div id="status"> </div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <script type="module" src="/js/domManipulate/displayProducts.js"></script>
+    <script type="module" src="/js/domManipulate/main.js"></script>
+    <script type="module" src="/js/domManipulate/createProduct.js"></script>
+    <script type="module" src="/js/domManipulate/searchProducts.js"></script>
+</body>
+
+</html>

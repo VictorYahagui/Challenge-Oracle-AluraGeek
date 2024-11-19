@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "image": "https://example.com/images/laptop.png",
+      "price": 1500,
+      "type": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "image": "https://example.com/images/smartphone.png",
+      "price": 800,
+      "type": "Electronics"
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "image": "https://example.com/images/headphones.png",
+      "price": 150,
+      "type": "Accessories"
+    },
+    {
+      "id": 5,
+      "name": "Tablet",
+      "image": "https://example.com/images/tablet.png",
+      "price": 600,
+      "type": "Electronics"
+    },
+    {
+      "id": 6,
+      "name": "Monitor",
+      "image": "https://example.com/images/monitor.png",
+      "price": 300,
+      "type": "Electronics"
+    },
+    {
+      "id": 7,
+      "name": "Keyboard",
+      "image": "https://example.com/images/keyboard.png",
+      "price": 100,
+      "type": "Accessories"
+    },
+    {
+      "id": 8,
+      "name": "Mouse",
+      "image": "https://example.com/images/mouse.png",
+      "price": 50,
+      "type": "Accessories"
+    },
+    {
+      "id": 9,
+      "name": "Webcam",
+      "image": "https://example.com/images/webcam.png",
+      "price": 80,
+      "type": "Accessories"
+    },
+    {
+      "id": 10,
+      "name": "Printer",
+      "image": "https://example.com/images/printer.png",
+      "price": 200,
+      "type": "Electronics"
+    },
+    {
+      "id": 11,
+      "name": "Router",
+      "image": "https://example.com/images/router.png",
+      "price": 120,
+      "type": "Electronics"
+    },
+    {
+      "id": 12,
+      "name": "External Hard Drive",
+      "image": "https://example.com/images/harddrive.png",
+      "price": 100,
+      "type": "Storage"
+    },
+    {
+      "id": 13,
+      "name": "Speakers",
+      "image": "https://example.com/images/speakers.png",
+      "price": 75,
+      "type": "Audio"
+    },
+    {
+      "id": 14,
+      "name": "Microphone",
+      "image": "https://example.com/images/microphone.png",
+      "price": 60,
+      "type": "Audio"
+    },
+    {
+      "id": 15,
+      "name": "Drone",
+      "image": "https://example.com/images/drone.png",
+      "price": 1000,
+      "type": "Electronics"
+    },
+    {
+      "id": 16,
+      "name": "Action Camera",
+      "image": "https://example.com/images/actioncamera.png",
+      "price": 400,
+      "type": "Cameras"
+    },
+    {
+      "id": 17,
+      "name": "Gaming Console",
+      "image": "https://example.com/images/console.png",
+      "price": 500,
+      "type": "Gaming"
+    },
+    {
+      "id": 18,
+      "name": "VR Headset",
+      "image": "https://example.com/images/vrheadset.png",
+      "price": 350,
+      "type": "Gaming"
+    },
+    {
+      "id": 19,
+      "name": "Smart Light",
+      "image": "https://example.com/images/smartlight.png",
+      "price": 40,
+      "type": "Smart Home"
+    }
+  ]
+}
