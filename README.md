@@ -5,10 +5,10 @@ Este projeto faz parte do desafio proposto pelo Oracle One Next em colaboração
 
 ## Demonstração
 <p align="center">
-  <img src="../assets/AluraGeek2.PNJ" alt="Demonstração">
+  <img src="./assets/AluraGeek1.PNG" alt="Demonstração">
 </p>
 <p align="center">
-  <img src="../assets/AluraGeek2.PNJ" alt="Demonstração">
+  <img src="./assets/AluraGeek2.PNJ" alt="Demonstração">
 </p>
 
 ## Funcionalidades
