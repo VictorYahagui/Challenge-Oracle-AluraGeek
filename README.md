@@ -5,7 +5,11 @@ Este projeto faz parte do desafio proposto pelo Oracle One Next em colaboração
 
 ## Demonstração
 <p align="center">
+<<<<<<< HEAD
   <img src="./assets/AluraGeek1.PNG" alt="Demonstração">
+=======
+  <img src="./assets/AluraGeek2.PNG" alt="Demonstração">
+>>>>>>> 992aff99c3dabaf1aeffc36781bab1716462e684
 </p>
 <p align="center">
   <img src="./assets/AluraGeek2.PNJ" alt="Demonstração">
